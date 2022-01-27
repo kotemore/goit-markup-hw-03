@@ -1,0 +1,225 @@
+:root {
+	--primary-background-color: #ffffff;
+	--secondary-background-color: #f5f4fa;
+	--footer-background-color: #2f303a;
+	--focus-color: #2196f3;
+	--primary-font-color: #757575;
+	--secondary-font-color: #212121;
+	--logo-white: #ffffff;
+}
+
+body {
+	background-color: var(--primary-background-color);
+	color: var(--primary-font-color);
+
+	font-family: "Roboto", sans-serif;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+
+ul {
+	list-style: none;
+}
+
+/* logo */
+
+.logo {
+	color: var(--secondary-font-color);
+
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+
+	text-decoration: none;
+}
+
+.logo .logo-blue {
+	color: var(--focus-color);
+}
+.logo-white {
+	color: var(--logo-white);
+}
+.logo:hover,
+.logo:focus {
+	color: var(--focus-color);
+}
+.logo-white:hover,
+.logo-white:focus {
+	color: var(--focus-color);
+}
+
+/* nav */
+
+.nav .link {
+	color: var(--secondary-font-color);
+	text-decoration: none;
+
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.4;
+	letter-spacing: 0.02em;
+}
+
+.nav .link:hover,
+.nav .link:focus {
+	color: var(--focus-color);
+}
+
+/* contacts */
+
+.contact .link {
+	color: inherit;
+	text-decoration: none;
+
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.4;
+	letter-spacing: 0.02em;
+}
+.contact .link:hover,
+.contact .link:focus {
+	color: var(--focus-color);
+}
+
+/* hero */
+
+.hero .title {
+	background-color: var(--footer-background-color);
+}
+
+.hero .title {
+	color: var(--primary-background-color);
+
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+.button {
+	color: var(--primary-background-color);
+	background-color: var(--focus-color);
+
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.9;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+}
+
+/* maine */
+
+.section.team {
+	background-color: var(--secondary-background-color);
+}
+
+.section-title {
+	color: var(--secondary-font-color);
+
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.2;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.list-title {
+	color: var(--secondary-font-color);
+
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.1;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.section.team .list-title {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.2;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.position {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.2;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+/* footer */
+
+footer {
+	background-color: var(--footer-background-color);
+}
+
+.address-list.contact {
+	font-style: normal;
+	text-decoration: none;
+	color: inherit;
+}
+
+.address-link {
+	text-decoration: none;
+
+	color: var(--primary-background-color);
+
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+}
+
+/* ---portfolio--- */
+
+/* filter button */
+
+.btn-list .button {
+	color: var(--footer-background-color);
+	background-color: var(--secondary-background-color);
+
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.btn-list .button:hover,
+.btn-list .button:focus {
+	color: var(--primary-background-color);
+	background-color: var(--focus-color);
+}
+
+/* portfolio content */
+
+.link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.link-title {
+	color: var(--secondary-font-color);
+
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+
+.title-description {
+	font-size: 16px;
+	line-height: 1.9;
+	letter-spacing: 0.03em;
+}

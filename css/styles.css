@@ -35,6 +35,13 @@ h6,
 p {
 	margin: 0px;
 }
+
+img {
+	display: block;
+	min-width: 100%;
+	height: auto;
+}
+
 .visually-hidden {
 	position: absolute;
 	width: 1px;
@@ -333,7 +340,7 @@ footer {
 	margin-bottom: 34px;
 }
 
-/* Якщо так пишу (строчка 340), намагаючись зняти 8рх в останній кнопці, то чомусь марджини не працюють.
+/* Якщо так пишу (строчка 347), намагаючись зняти 8рх в останній кнопці, то чомусь марджини не працюють.
 Якщо прибрати нот:ласт чайлд, то марджини працюють, 
 але в останній кнопці зайвий марджин звісно лишається.  Допоможіть зрозуміти чому.  */
 
@@ -373,6 +380,11 @@ footer {
 	margin-left: 30px;
 	margin-top: 30px;
 }
+
+.frame {
+	border: 1px solid #eeeeee;
+}
+
 .link {
 	text-decoration: none;
 	color: inherit;

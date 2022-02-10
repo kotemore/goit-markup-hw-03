@@ -297,10 +297,6 @@ footer {
 	margin-top: 20px;
 }
 
-.address-item .address-link:not(:last-child) {
-	margin-bottom: 9px;
-}
-
 .address-list .link:hover,
 .address-list .link:focus {
 	color: var(--focus-color);
@@ -313,7 +309,6 @@ footer {
 
 .address-link {
 	text-decoration: none;
-
 	color: var(--primary-background-color);
 
 	font-style: normal;
@@ -321,6 +316,12 @@ footer {
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
+}
+.clarity {
+	display: block;
+	margin-top: 9px;
+	color: rgba(255, 255, 255, 0.6);
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 /* ---portfolio--- */
@@ -332,10 +333,9 @@ footer {
 	margin-bottom: 34px;
 }
 
-/* Якщо так пишу (строчка 340), намагаючись зняти 8рх в останній кнопці, чомусь марджини не працюють.
+/* Якщо так пишу (строчка 340), намагаючись зняти 8рх в останній кнопці, то чомусь марджини не працюють.
 Якщо прибрати нот:ласт чайлд, то марджини працюють, 
-але в останній кнопці зайвий марджин звісно лишається.  Допоможіть зрозуміти чому.  
-Аналогічно не працює строчка 300*/
+але в останній кнопці зайвий марджин звісно лишається.  Допоможіть зрозуміти чому.  */
 
 .btn-portfolio .button:not(:last-child) {
 	margin-right: 8px;
@@ -362,6 +362,17 @@ footer {
 
 /* portfolio content */
 
+.section-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -30px;
+	margin-top: -30px;
+}
+.section-item {
+	flex-basis: calc((100% - 90px) / 3);
+	margin-left: 30px;
+	margin-top: 30px;
+}
 .link {
 	text-decoration: none;
 	color: inherit;
@@ -369,7 +380,9 @@ footer {
 
 .link-title {
 	color: var(--secondary-font-color);
+	margin-top: 20px;
 	margin-bottom: 4px;
+	margin-left: 24px;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
@@ -377,6 +390,8 @@ footer {
 }
 
 .title-description {
+	margin-bottom: 20px;
+	margin-left: 24px;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.9;
